@@ -14,6 +14,10 @@ class CartItem {
     }
     // 게터, 세터와 equals() 및 hashcode() 메소드는 편의상 생략
 
+    public void increment() {
+        this.quantity++;
+    }
+
     public Item getItem() {
         return item;
     }
